@@ -12,6 +12,7 @@ Step 3. If you want to display the Device ID and volume name, type the following
 
  - wmic logicaldisk get deviceid, volumename, description
  - wmic logicaldisk get caption,description,freespace,size,volumename
+ - wmic logicaldisk get caption,description,freespace,size,volumename /format:list
 
 List Drives CMD via Diskpart:
 ============================
