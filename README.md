@@ -1,4 +1,4 @@
-List Drives CMD via WMIC:
+##List Drives CMD via WMIC:
 
 Step 1. Press Win + R keys to open the Run dialog box, and then type cmd in it and press Ctrl + Shift + Enter keys together to open the elevated Command Prompt window.
 
@@ -11,7 +11,7 @@ Step 3. If you want to display the Device ID and volume name, type the following
 
 wmic logicaldisk get deviceid, volumename, description
 
-List Drives CMD via Diskpart:
+##List Drives CMD via Diskpart:
 
 DiskPart is a disk partition management tool that uses command lines to perform operations. It can be used to list drives CMD as well. Here’s how to use it.
 
@@ -24,7 +24,8 @@ list disk
 select disk *
 list volume/list partition
 
-How to List Drives in PowerShell
+##How to List Drives in PowerShell:
+
 PowerShell is a command-line tool like CMD. Here you can let PowerShell list drives as well. To do so, follow the steps below:
 
 Step 1. Open the Run dialog box, and then type powershell in it and hit Enter.
