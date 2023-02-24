@@ -11,6 +11,7 @@ Step 2. To let CMD list drives, type one of the following commands and hit Enter
 Step 3. If you want to display the Device ID and volume name, type the following command and hit Enter. Also, you can run the fsutil fsinfo drives command to list drives on your computer
 
  - wmic logicaldisk get deviceid, volumename, description
+ - wmic logicaldisk get caption,description,freespace,size,volumename
 
 List Drives CMD via Diskpart:
 ============================
