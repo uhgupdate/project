@@ -1,4 +1,4 @@
-##List Drives CMD via WMIC:
+#List Drives CMD via WMIC:
 
 Step 1. Press Win + R keys to open the Run dialog box, and then type cmd in it and press Ctrl + Shift + Enter keys together to open the elevated Command Prompt window.
 
